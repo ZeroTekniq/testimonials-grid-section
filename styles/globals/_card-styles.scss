@@ -1,0 +1,112 @@
+@use '_colors' as c;
+@use '../util/fonts' as f;
+
+body {
+    background-color: c.$Cultured;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: f.$base-size;
+}
+
+.card {
+    // width: 19.0625rem;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+
+.name {
+    font-weight: 500;
+    line-height: 110%;
+    font-size: f.$base-size;
+}
+.status {
+    font-weight: 500;
+    line-height: 110%;
+    font-size: f.$small-size;
+}
+.highlighted-quote {
+    font-weight: 600;
+    font-size: f.$medium-size;
+    line-height: 120%;
+}
+
+.card-1 {
+    background-color: c.$Purple-500;
+
+    &__name {
+        color: c.$White;
+    }
+    &__status {
+        color: c.$Purple-50;
+    }
+    .highlighted-quote {
+        color: c.$White;
+    }
+    .paragraph {
+        color: c.$Purple-50;
+    }
+    @media (min-width: 10rem) {
+        .accent-img {
+            display: none;
+        }
+    }
+}
+.card-2 {
+    background-color: c.$Grey-500;
+    &__name {
+        color: c.$White;
+    }
+    &__status {
+        color: c.$Grey-300;
+    }
+    .highlighted-quote {
+        color: c.$White;
+    }
+    .paragraph {
+        color: c.$Grey-100;
+    }
+}
+.card-3 {
+    background-color: c.$White;
+    &__name {
+        color: c.$Grey-500;
+    }
+    &__status {
+        color: c.$Grey-400;
+    }
+    .highlighted-quote {
+        color: c.$Grey-500;
+    }
+    .paragraph {
+        color: c.$Grey-400;
+    }
+
+}
+.card-4 {
+    background-color: c.$Dark-blue;
+    &__name {
+        color: c.$White;
+    }
+    &__status {
+        color: c.$White;
+    }
+    .highlighted-quote {
+        color: c.$Grey-200;
+    }
+    .paragraph {
+        color: c.$Grey-100;
+    }
+}
+.card-5 {
+    background-color: c.$White;
+    &__name {
+        color: c.$Grey-500;
+    }
+    &__status {
+        color: c.$Grey-300;
+    }
+    .highlighted-quote {
+        color: c.$Grey-500;
+    }
+    .paragraph {
+        color: c.$Grey-400;
+    }
+}
