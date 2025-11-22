@@ -1,0 +1,75 @@
+.wrapper {
+    margin: 4.5625rem auto;
+
+    @media (min-width: 23.4375rem) {
+        margin: 4.5625rem auto;
+        width: 19.0625rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "a" "b" "c" "d" "e";
+        gap: 2rem;
+    }
+
+
+    @media (min-width: 48rem) {
+        margin: 5.1875rem auto;
+        width: 40.4375rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "a a " "b c" "d d" "e e";
+        gap: 2rem;
+
+        .card {
+            position: relative;
+        }
+        .accent-img {
+        display: block;
+        width: 6.5rem;
+        height: 6.375rem;
+        position: absolute;
+        top: 0rem;
+        right: 10.5rem;
+        z-index: 0;            
+        }
+        .highlighted-quote {
+            position: relative;
+            z-index: 1;
+        }
+
+    }
+
+    @media (min-width: 90rem) {
+        margin: 14.3125rem auto;
+        width: 69.625rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "a a b e" 
+        "c d d e";
+        gap: 2rem;
+
+        .accent-img {
+            right: 3.9rem;
+        }
+    }
+
+    :nth-child(1) {
+        grid-area: a;
+    }
+    :nth-child(2) {
+        grid-area: b;
+    }
+    :nth-child(3) {
+        grid-area: c;
+    }
+    :nth-child(4) {
+        grid-area: d;
+    }
+    :nth-child(5) {
+        grid-area: e;
+    }
+}
