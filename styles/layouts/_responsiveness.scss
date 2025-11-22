@@ -4,7 +4,7 @@
     @media (min-width: 23.4375rem) {
         margin: 4.5625rem auto;
         width: 19.0625rem;
-        height: auto;
+        height: 132.0625rem;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: "a" "b" "c" "d" "e";
@@ -15,7 +15,7 @@
     @media (min-width: 48rem) {
         margin: 5.1875rem auto;
         width: 40.4375rem;
-        height: auto;
+        height: 84.5625rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
@@ -23,7 +23,7 @@
         gap: 2rem;
 
         .card {
-            position: relative;
+            position: relative;;
         }
         .accent-img {
         display: block;
@@ -44,7 +44,7 @@
     @media (min-width: 90rem) {
         margin: 14.3125rem auto;
         width: 69.625rem;
-        height: auto;
+        height: 36.4rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
