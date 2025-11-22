@@ -4,7 +4,7 @@
     @media (min-width: 23.4375rem) {
         margin: 4.5625rem auto;
         width: 19.0625rem;
-        height: 132.0625rem;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: "a" "b" "c" "d" "e";
@@ -15,12 +15,12 @@
     @media (min-width: 48rem) {
         margin: 5.1875rem auto;
         width: 40.4375rem;
-        height: 84.5625rem;
+        height: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas:
         "a a " "b c" "d d" "e e";
-        gap: 2rem;
+        // gap: 2rem;
 
         .card {
             position: relative;;
@@ -44,7 +44,7 @@
     @media (min-width: 90rem) {
         margin: 14.3125rem auto;
         width: 69.625rem;
-        height: 36.4rem;
+        height: auto;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
