@@ -14,7 +14,7 @@
 
     @media (min-width: 48rem) {
       
-        margin: 5.1875rem 3.8125rem 5.1875rem 3.75rem;
+        margin: 5.1875rem auto;
         width: 40.4375rem;
         height: auto;
         display: grid;
@@ -44,7 +44,7 @@
 
     @media (min-width: 90rem) {
     
-        margin: 14.3125rem 10.0625rem 14.3125rem 10.3125rem;
+        margin: 14.3125rem auto;
         width: 72.625rem;
         height: auto;
         grid-template-columns: repeat(4, 1fr);
