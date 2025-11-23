@@ -8,13 +8,13 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: "a" "b" "c" "d" "e";
-        // gap: 2rem;
+        gap: 2rem;
     }
 
 
     @media (min-width: 48rem) {
       
-        margin: 5.1875rem auto;
+        margin: 5.1875rem 3.8125rem 5.1875rem 3.75rem;
         width: 40.4375rem;
         height: auto;
         display: grid;
@@ -44,7 +44,7 @@
 
     @media (min-width: 90rem) {
     
-        margin: 14.3125rem auto;
+        margin: 14.3125rem 10.0625rem 14.3125rem 10.3125rem;
         width: 69.625rem;
         height: auto;
         display: grid;
@@ -57,26 +57,26 @@
         .accent-img {
             right: 3.9rem;
         }
-        // .card-1 {
-        //     width: 33.75rem;
-        //     height: 18rem;
-        // }
-        // .card-2 {
-        //     width: 15.9375rem;
-        //     height: 18rem;
-        // }
-        // .card-3 {
-        //     width: 15.9375rem;
-        //     height: 16.8125rem
-        // }
-        // .card-4 {
-        //     width: 33.75rem;
-        //     height: 16.875rem;
-        // }
-        // .card-5 {
-        //     width: 15.9375rem;
-        //     height: 36.875rem;
-        // }
+        .card-1 {
+            width: 33.75rem;
+            height: 18rem;
+        }
+        .card-2 {
+            width: 15.9375rem;
+            height: 18rem;
+        }
+        .card-3 {
+            width: 15.9375rem;
+            height: 16.8125rem
+        }
+        .card-4 {
+            width: 33.75rem;
+            height: 16.875rem;
+        }
+        .card-5 {
+            width: 15.9375rem;
+            height: 36.875rem;
+        }
     }
 
     :nth-child(1) {
